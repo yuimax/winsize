@@ -47,8 +47,6 @@ class Program
         // コマンドライン引数のチェック
         if (!(args.Length == 5 || args.Length == 1))
         {
-            Console.WriteLine($"args.Length={args.Length}");
-
             Console.WriteLine("Usage: WinSize <ウィンドウタイトル(正規表現)> [<X> <Y> <幅> <高さ>]");
             Console.WriteLine("       座標を指定しない場合、現在の座標を表示する");
             return;
